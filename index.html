@@ -3,68 +3,108 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Sarah Ezzeldin - Personal Portfolio</title>
   </head>
   <body>
     <header>
-      <h1>FCAI Student Activity Portal</h1>
-      <p>
-        Bridging Academic Computer Science & Software Engineering Product
-        Standards
-      </p>
+      <h1>Sarah Ezzeldin</h1>
+      <p>Computer Science Student & Aspiring Frontend Developer</p>
       <nav>
         <ul>
-          <li>
-            <a>Announcements</a>
-          </li>
-          <li>
-            <a>Upcoming Events</a>
-          </li>
-          <li>
-            <a>Club Registration</a>
-          </li>
+          <li><a href="#about">About Me</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
         </ul>
       </nav>
     </header>
 
     <main>
-      <section>
-        <h2>Official Announcements</h2>
+      <section id="about">
+        <h2>About Me</h2>
+        <p>
+          Hello! I'm Sarah Ezzeldin, a Computer Science student participating in Scratch2Build[cite: 1]. I am passionate about building practical web solutions that solve real-world student problems.
+        </p>
+      </section>
+
+      <section id="projects">
+        <h2>My Projects</h2>
+
         <article>
-          <h3>Scratch2Build 2026 Orientation</h3>
-          <p>Welcome to all new members !</p>
+          <h3>CampusConnect - University Activities Platform</h3>
+          <p>
+            A centralized web platform designed for university students to discover, filter, and register for campus events, workshops, and volunteering opportunities in one place.
+          </p>
+          <a href="#" target="_blank">View Project</a>
         </article>
 
         <article>
-          <h3>Milestone #1: Portal</h3>
-          <p>All participants must complete block 1 and block 2</p>
+          <h3>C++ Image Processing Filters</h3>
+          <p>
+            A computer science program built in C++ that applies customized digital filters and image cropping techniques using standard arrays and matrix operations.
+          </p>
+          <a href="#" target="_blank">View Project</a>
         </article>
       </section>
 
-      <section>
-        <h2>Upcoming Workshops</h2>
+      <section id="contact">
+        <h2>Contact Me</h2>
+        <form action="" method="POST">
+          <div>
+            <label for="name">Name:</label>
+            <input
+              type="text"
+              id="name"
+              name="name"
+              placeholder="Your Name"
+              required
+            />
+          </div>
 
-        <article>
-          <h3>Git & Github</h3>
-          <p>Date: Tuesday Offline Workshop</p>
-          <p>Learn feature branching, conflict resolution.</p>
-        </article>
+          <div>
+            <label for="email">Email Address:</label>
+            <input
+              type="email"
+              id="email"
+              name="email"
+              placeholder="your.email@example.com"
+              required
+            />
+          </div>
 
-        <article>
-          <h3>React & Next.js Deep dive</h3>
-          <p>Date: Tuesday Offline Workshop</p>
-          <p>Learn feature branching, conflict resolution.</p>
-        </article>
+          <div>
+            <label for="subject">Subject:</label>
+            <input
+              type="text"
+              id="subject"
+              name="subject"
+              placeholder="Subject"
+              required
+            />
+          </div>
+
+          <div>
+            <label for="message">Message:</label>
+            <textarea
+              id="message"
+              name="message"
+              rows="4"
+              placeholder="Your message here..."
+              required
+            ></textarea>
+          </div>
+
+          <button type="submit">Send Message</button>
+        </form>
       </section>
     </main>
 
     <footer>
-      <p>&copy; 2026 Scratch2Build. All Rights are reserved</p>
+      <p>&copy; 2026 Sarah Ezzeldin. All Rights Reserved.</p>
       <p>
-        Contact Support:
-        <a>
-          support@scratch2build.club
-        </a>
+        GitHub:
+        <a href="https://github.com/sarah10ezz" target="_blank" style="color: #38bdf8"
+          >github.com/sarah10ezz</a
+        >
       </p>
     </footer>
   </body>
